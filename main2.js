@@ -34,3 +34,12 @@ brown fox
 jumps over
 the lazy dog`;
 console.log(text);
+
+//Arrays
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let flen = fruits.length;
+let txt = "<ul>";
+for (let i = 0; i<flen; i++){
+  txt += "<li>" + fruits[i] + "</li>"
+}
+txt += "</ul>";
