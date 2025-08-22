@@ -43,3 +43,8 @@ for (let i = 0; i<flen; i++){
   txt += "<li>" + fruits[i] + "</li>"
 }
 txt += "</ul>";
+
+//Dates
+const d = new Date();
+console.log(d);
+
