@@ -46,5 +46,13 @@ txt += "</ul>";
 
 //Dates
 const d = new Date();
+d.toDateString();
 console.log(d);
 
+const a = new Date();
+a.toUTCString();
+console.log(a);
+
+const r = new Date();
+r.toISOString();
+console.log(r);
